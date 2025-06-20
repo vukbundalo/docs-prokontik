@@ -49,7 +49,7 @@ presets: [
       docs: {
         routeBasePath: '/', // 👈 this makes docs available at root
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://https://github.com/vukbundalo/docs-prokontik',
+        editUrl: 'https://github.com/vukbundalo/docs-prokontik',
       },
       blog: false, // 👈 turn off blog completely
       theme: {
