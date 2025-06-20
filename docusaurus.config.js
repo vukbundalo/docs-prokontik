@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'prokontik', // Usually your GitHub org/user name.
+  organizationName: 'vukbundalo', // Usually your GitHub org/user name.
   projectName: 'prokontik_docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
