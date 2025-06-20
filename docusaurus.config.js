@@ -37,7 +37,7 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'sr',
+    defaultLocale: 'en',
     locales: ['sr'],
   },
 
@@ -49,7 +49,7 @@ presets: [
       docs: {
         routeBasePath: '/', // 👈 this makes docs available at root
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/vukbundalo/prokontik_docs',
+        editUrl: 'https://https://github.com/vukbundalo/docs-prokontik',
       },
       blog: false, // 👈 turn off blog completely
       theme: {
@@ -58,7 +58,18 @@ presets: [
     }),
   ],
 ],
-
+plugins: [
+  [
+    require.resolve('@easyops-cn/docusaurus-search-local'),
+    {
+      indexDocs: true,
+      indexBlog: false,
+      indexPages: false,
+      language: ["en"],
+      hashed: true,
+    },
+  ],
+],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -83,6 +94,10 @@ presets: [
           //   label: 'GitHub',
           //   position: 'right',
           // },
+          {
+  type: 'search',
+  position: 'right',
+}
         ],
       },
 footer: {

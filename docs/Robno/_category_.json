@@ -1,8 +1,9 @@
 {
-  "label": "Robno Knjigovodstvo",
-  "position": 2,
+  "label": "Robno",
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "slug": "/robno",
+    "description": "Sve o robnom knjigovodstvu, uključujući uvod i sve ključne sekcije."
   }
 }
