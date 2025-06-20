@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Robno": {
+    "message": "Robno",
+    "description": "The label for category Robno in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Robno.link.generated-index.description": {
+    "message": "Sve o robnom knjigovodstvu, uključujući uvod i sve ključne sekcije.",
+    "description": "The generated-index page description for category Robno in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Finansijsko Knjigovodstvo": {
+    "message": "Finansijsko Knjigovodstvo",
+    "description": "The label for category Finansijsko Knjigovodstvo in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Finansijsko Knjigovodstvo.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Finansijsko Knjigovodstvo in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Šifarnik": {
+    "message": "Šifarnik",
+    "description": "The label for category Šifarnik in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Šifarnik.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Šifarnik in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Izvještaji": {
+    "message": "Izvještaji",
+    "description": "The label for category Izvještaji in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Izvještaji.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Izvještaji in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Fiskalni Uređaj": {
+    "message": "Fiskalni Uređaj",
+    "description": "The label for category Fiskalni Uređaj in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Fiskalni Uređaj.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Fiskalni Uređaj in sidebar tutorialSidebar"
+  }
+}
