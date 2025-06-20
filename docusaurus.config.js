@@ -38,7 +38,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['sr'],
+    locales: ['en'],
   },
 
 presets: [
@@ -49,7 +49,7 @@ presets: [
       docs: {
         routeBasePath: '/', // 👈 this makes docs available at root
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/vukbundalo/docs-prokontik',
+        editUrl: 'https://github.com/vukbundalo/docs-prokontik/tree/main',
       },
       blog: false, // 👈 turn off blog completely
       theme: {
