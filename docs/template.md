@@ -33,11 +33,10 @@ Za unos nove kalkulacije:
 
 
 <img
-  src="/img/test.gif"
+  src="img/test.gif"
   alt="Kalkulacija template GIF"
   style={{ maxWidth: '100%', height: 'auto' }}
 />
-
 
 
 > **Napomena (verzija 2.0):** Ova opcija je dostupna samo u verziji 2.0 softvera.
