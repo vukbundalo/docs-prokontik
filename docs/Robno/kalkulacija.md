@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 # Kalkulacija
@@ -16,8 +16,22 @@ Za bolju ilustraciju, pogledajte priloženi video vodič:
 
 ## Pogledajte video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/chV68OsnDlQ" 
-title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+  <iframe
+    src="https://www.youtube.com/embed/chV68OsnDlQ"
+    title="YouTube video player"
+    style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+    }}
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  ></iframe>
+</div>
 
 
 ## Kreiranje nove kalkulacije
@@ -36,6 +50,13 @@ Za unos nove kalkulacije:
 Ako imamo troškove vezane za fakturu:
 - Kliknemo na dugme **Unos troškova**.
 - Otvara se forma gdje unosimo svaki trošak: biramo trošak, partnera i unosimo iznos. Svaki unos potvrđujemo tipkom **Enter**.
+
+<img
+  src="/docs-prokontik/img/test.gif"
+  alt="Kalkulacija template GIF"
+  style={{ maxWidth: '100%', height: 'auto' }}
+/>
+
 
 ## Unos ulaznog PDV-a
 

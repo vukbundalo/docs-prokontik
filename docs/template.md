@@ -16,8 +16,23 @@ Za bolju ilustraciju, pogledajte priloženi video vodič:
 
 ## Pogledajte video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/chV68OsnDlQ" 
-title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+  <iframe
+    src="https://www.youtube.com/embed/chV68OsnDlQ"
+    title="YouTube video player"
+    style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+    }}
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  ></iframe>
+</div>
+
 
 
 ## Kreiranje nove kalkulacije
@@ -33,7 +48,7 @@ Za unos nove kalkulacije:
 
 
 <img
-  src="img/test.gif"
+  src="/docs-prokontik/img/test.gif"
   alt="Kalkulacija template GIF"
   style={{ maxWidth: '100%', height: 'auto' }}
 />
@@ -61,8 +76,8 @@ Za svaki artikal:
 
 <div style={{
   padding: '0.8em',
-  background: '#fff8e1',
-  borderLeft: '4px solid #f39c12',
+  background: 'var(--note-bg)',
+  borderLeft: '4px solid var(--note-border)',
   margin: '0.5em 0'
 }}>
   <strong>Napomena (verzija 1.0):</strong> Ova opcija je dostupna samo u verziji 1.0 softvera.
@@ -70,13 +85,12 @@ Za svaki artikal:
 
 <div style={{
   padding: '0.8em',
-  background: '#eaf4fb',
-  borderLeft: '4px solid #2980b9',
+  background: 'var(--note-v2-bg)',
+  borderLeft: '4px solid var(--note-v2-border)',
   margin: '0.5em 0'
 }}>
   <strong>Napomena (verzija 2.0):</strong> Ova opcija je dostupna samo u verziji 2.0 softvera.
 </div>
-
 
 Možemo unijeti:
 - **Bar kod** artikla (dodavanje/izmjena)
