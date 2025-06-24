@@ -1,4 +1,6 @@
 ---
+id: index
+title: Dokumentacija
 sidebar_position: 1
 ---
 

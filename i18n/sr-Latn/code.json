@@ -1,0 +1,365 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Ova stranica se srušila.",
+    "description": "Naslov rezervne stranice kada se stranica srušila"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Skroluj nazad na vrh",
+    "description": "ARIA oznaka za dugme za povratak na vrh"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arhiva",
+    "description": "Naslov stranice i hero-ja na arhivi bloga"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arhiva",
+    "description": "Opis stranice i hero-ja na arhivi bloga"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigacija liste bloga",
+    "description": "ARIA oznaka za paginaciju bloga"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Noviji unosi",
+    "description": "Oznaka za navigaciju ka novijim objavama na blogu (prethodna strana)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Stariji unosi",
+    "description": "Oznaka za navigaciju ka starijim objavama na blogu (sledeća strana)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navigacija stranica blog objava",
+    "description": "ARIA oznaka za paginaciju pojedinačnih blog objava"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Novija objava",
+    "description": "Oznaka dugmeta za navigaciju ka novijoj (prethodnoj) objavi"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Starija objava",
+    "description": "Oznaka dugmeta za navigaciju ka starijoj (sledećoj) objavi"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Pogledaj sve oznake",
+    "description": "Oznaka linka koji vodi na stranicu sa listom oznaka"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "sistemski režim",
+    "description": "Naziv za sistemski režim boja"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "svetli režim",
+    "description": "Naziv za svetli režim boja"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "tamni režim",
+    "description": "Naziv za tamni režim boja"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Promeni između tamnog i svetlog režima (trenutno {mode})",
+    "description": "ARIA oznaka za prekidač režima boja"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Putanje",
+    "description": "ARIA oznaka za navigaciju ‘breadcrumbs’"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 stavka|{count} stavki",
+    "description": "Opis kategorije u generisanom indeksu koji pokazuje koliko stavki kategorija sadrži"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Stranice dokumenata",
+    "description": "ARIA oznaka za paginaciju dokumenata"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Prethodno",
+    "description": "Oznaka za navigaciju ka prethodnom dokumentu"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Sledeće",
+    "description": "Oznaka za navigaciju ka sledećem dokumentu"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Jedan dokument označen|{count} dokumenata označeno",
+    "description": "U množinskom obliku za „{count} dokumenata označeno“"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} sa oznakom \"{tagName}\"",
+    "description": "Naslov stranice za oznaku u dokumentaciji"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Verzija: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Ovo je neobjavljena dokumentacija za verziju {siteTitle} {versionLabel}.",
+    "description": "Oznaka koja informiše da se pregleda neobjavljena verzija dokumentacije"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Ovo je dokumentacija za verziju {siteTitle} {versionLabel}, koja više nije održavana.",
+    "description": "Oznaka koja informiše da se pregleda nezaštićena verzija dokumentacije"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Za najnoviju dokumentaciju pogledajte {latestVersionLink} ({versionLabel}).",
+    "description": "Oznaka koja sugeriše korisniku da pregleda najnoviju verziju dokumentacije"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "najnovija verzija",
+    "description": "Oznaka linka za najnoviju verziju dokumentacije"
+  },
+  "theme.common.editThisPage": {
+    "message": "Uredi ovu stranu",
+    "description": "Oznaka linka za uređivanje trenutne stranice"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direktna veza do {heading}",
+    "description": "Naslov za link do naslova u dokumentu"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " na {date}",
+    "description": "Tekst koji opisuje datum poslednje izmene stranice"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " od {user}",
+    "description": "Tekst koji opisuje ko je poslednji izmenio stranicu"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Poslednja izmena{atDate}{byUser}",
+    "description": "Rečenica koja prikazuje kada i ko je poslednji izmenio stranicu"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Verzije",
+    "description": "Oznaka za meni sa verzijama na mobilnom prikazu"
+  },
+  "theme.NotFound.title": {
+    "message": "Stranica nije pronađena",
+    "description": "Naslov 404 stranice"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Oznake:",
+    "description": "Oznaka pored liste oznaka"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Zatvori",
+    "description": "ARIA oznaka za dugme zatvaranja obaveštenja"
+  },
+  "theme.admonition.caution": {
+    "message": "Pažnja",
+    "description": "Podrazumevana oznaka za upozorenje u admoniciji (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "Opasnost",
+    "description": "Podrazumevana oznaka za opasnost u admoniciji (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "Info",
+    "description": "Podrazumevana oznaka za informaciju u admoniciji (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "Beleška",
+    "description": "Podrazumevana oznaka za napomenu u admoniciji (:::note)"
+  },  
+  "theme.admonition.tip": {
+    "message": "Savet",
+    "description": "Podrazumevana oznaka za savet u admoniciji (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "Upozorenje",
+    "description": "Podrazumevana oznaka za upozorenje u admoniciji (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigacija nedavnih postova na blogu",
+    "description": "ARIA oznaka za nedavne postove u bočnoj traci bloga"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Proširi kategoriju bočne trake '{label}'",
+    "description": "ARIA oznaka za proširenje kategorije u bočnoj traci"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Smanji kategoriju bočne trake '{label}'",
+    "description": "ARIA oznaka za sužavanje kategorije u bočnoj traci"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Glavna navigacija",
+    "description": "ARIA oznaka za glavnu navigaciju"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Jezici",
+    "description": "Oznaka za menadžer jezika u mobilnoj navigaciji"
+  },
+  "theme.NotFound.p1": {
+    "message": "Nismo pronašli ono što tražite.",
+    "description": "Prvi pasus na 404 stranici"
+  },
+  "theme.NotFound.p2": {
+    "message": "Molimo kontaktirajte vlasnika sajta koji vas je uputio ovde i obavestite ga da je link neispravan.",
+    "description": "Drugi pasus na 404 stranici"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Na ovoj stranici",
+    "description": "Oznaka za dugme na sklopivom TOC komponentu"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Pročitaj više",
+    "description": "Oznaka za link ka punom tekstu blog objave iz previewa"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Pročitaj više o {title}",
+    "description": "ARIA oznaka za link ka punoj blog objavi iz previewa"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Jednominutno čitanje|{readingTime} minuta čitanja",
+    "description": "Množinski oblik za „{readingTime} minuta čitanja“"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Kopiraj",
+    "description": "Oznaka za dugme kopiranja koda"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Kopirano",
+    "description": "Oznaka za dugme nakon kopiranja koda"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Kopiraj kod u međuspremnik",
+    "description": "ARIA oznaka za dugme kopiranja koda"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Uključi/isključi prelamanje reči",
+    "description": "Naslov za dugme za prelamanje reči u kod bloku"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Početna stranica",
+    "description": "ARIA oznaka za početnu stranicu u putanjama (breadcrumbs)"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Sakrij bočnu traku",
+    "description": "Naslov atributa za dugme za zatvaranje bočne trake"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Sakrij bočnu traku",
+    "description": "ARIA oznaka za dugme za zatvaranje bočne trake"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Navigacija dokumentacijom",
+    "description": "ARIA oznaka za navigaciju kroz dokumentaciju"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Zatvori navigacionu traku",
+    "description": "ARIA oznaka za dugme zatvaranja navigacione trake na mobilnim uređajima"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Nazad na glavni meni",
+    "description": "Oznaka dugmeta za povratак na glavni meni u sekundarnom mobilnom meniju"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Prebaci navigacionu traku",
+    "description": "ARIA oznaka za hamburger dugme navigacije na mobilnim uređajima"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Proširi padajući meni",
+    "description": "ARIA oznaka za dugme za proširenje padajućeg menija"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Smanji padajući meni",
+    "description": "ARIA oznaka za dugme za sužavanje padajućeg menija"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Proširi bočnu traku",
+    "description": "Naslov atributa za dugme za proširenje bočne trake"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Proširi bočnu traku",
+    "description": "ARIA oznaka za dugme za proširenje bočne trake"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Rezultati pretrage za \"{query}\"",
+    "description": "Naslov stranice kada pretraga vraća rezultate"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Pretraži dokumentaciju",
+    "description": "Naslov stranice kada nema rezultata pretrage"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Svuda",
+    "description": "Oznaka za kontekst pretrage ‘svuda’"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Jedan dokument pronađen|{count} dokumenata pronađeno",
+    "description": "Množinski oblik za „{count} dokumenata pronađeno“"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Nijedan dokument nije pronađen",
+    "description": "Poruka kada pretraga ne nađe dokumente"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Nema rezultata",
+    "description": "Poruka kada nema rezultata pretrage"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "Pogledaj sve rezulate van \"{context}\"",
+    "description": "Oznaka za link ka svim rezultatima van konteksta"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "Pogledaj sve rezulate unutar \"{context}\"",
+    "description": "Oznaka za link ka svim rezultatima unutar konteksta"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Pogledaj sve rezultate",
+    "description": "Oznaka za link ka prikazu svih rezultata"
+  },
+  "theme.SearchBar.label": {
+    "message": "Pretraga",
+    "description": "ARIA oznaka i placeholder za dugme pretrage"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Jedan post|{count} postova",
+    "description": "Množinski oblik za „{count} postova“"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} označeno sa \"{tagName}\"",
+    "description": "Naslov stranice za oznaku na blogu"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "Naslov stranice autora na blogu"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Autori",
+    "description": "Naslov stranice sa listom autora"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Pogledaj sve autore",
+    "description": "Oznaka za link ka stranici sa svim autorima"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "Ovaj autor još nije napisao nijedan post.",
+    "description": "Poruka kada autor nema nijedan post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Nepublicirana stranica",
+    "description": "Naslov banera za neprikazane stranice"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Ova stranica nije na listi. Pretraživači je neće indeksirati, i mogu joj pristupiti samo korisnici sa direktnim linkom.",
+    "description": "Poruka banera za neprikazanu stranicu"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Nacrt stranice",
+    "description": "Naslov banera za nacrt stranice"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Ova stranica je nacrt. Videće je samo u režimu razvoja i biće izuzeta iz produkcijskog builda.",
+    "description": "Poruka banera za nacrt stranice"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Pokušaj ponovo",
+    "description": "Oznaka za dugme koje pokušava ponovo da učita stranicu nakon greške"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Preskoči na glavni sadržaj",
+    "description": "Oznaka za brzi prelazak na glavni sadržaj radi pristupačnosti"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Oznake",
+    "description": "Naslov stranice sa listom oznaka"
+  }
+}

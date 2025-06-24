@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Prokontik",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Prokontik Logo",
+    "description": "The alt text of navbar logo"
+  }
+}

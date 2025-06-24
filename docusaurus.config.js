@@ -1,12 +1,5 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
-import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,120 +7,89 @@ const config = {
   tagline: 'Korisnička dokumentacija za knjigovodstveni softver Prokontik',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
-
-  // Set the production url of your site here
-  url: 'https://docs.prokontik.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://vukbundalo.github.io',
   baseUrl: '/docs-prokontik/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'vukbundalo', // Usually your GitHub org/user name.
-  projectName: 'docs-prokontik', // Usually your repo name.
+  organizationName: 'vukbundalo',
+  projectName: 'docs-prokontik',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-i18n: {
-  defaultLocale: 'sr',
-  locales: ['sr'],
-},
-
-presets: [
-  [
-    'classic',
-    /** @type {import('@docusaurus/preset-classic').Options} */
-    ({
-      docs: {
-        routeBasePath: '/', // 👈 this makes docs available at root
-        sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/vukbundalo/docs-prokontik/blob/main',
-      },
-      blog: false, // 👈 turn off blog completely
-      theme: {
-        customCss: require.resolve('./src/css/custom.css'),
-      },
-    }),
-  ],
-],
-plugins: [
-  [
-    require.resolve('@easyops-cn/docusaurus-search-local'),
-    {
-      indexDocs: true,
-      indexBlog: false,
-      indexPages: false,
-      language: ["en"],
-      hashed: true,
+  // —— i18n Setup ——  
+  i18n: {
+    defaultLocale: 'sr-Latn',
+    locales:       ['sr-Latn', 'sr', 'en', 'de'],
+    localeConfigs: {
+      'sr-Latn': { label: 'Latinica' },
+      sr:       { label: 'Ћирилица' },
+      en:       { label: 'English' },
+      de:       { label: 'Deutsch' },
     },
+  },
+
+  // —— Classic preset with docs enabled ——  
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          routeBasePath: '/',                  // serve docs at /docs-prokontik/
+          sidebarPath:   require.resolve('./sidebars.js'),
+        },
+        blog: false,
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      }),
+    ],
   ],
-],
+
+  // —— Search plugin ——  
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        indexDocs:  true,
+        indexBlog:  false,
+        indexPages: false,
+        language:   ['en','de'],  // stemmers supported
+        hashed:     true,
+      },
+    ],
+  ],
+
+  // —— Theme config with Locale Dropdown ——  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Prokontik',
-        logo: {
-          alt: 'Prokontik Logo',
-          src: 'img/logo.png',
-        },
+        logo: { alt: 'Prokontik Logo', src: 'img/logo.png' },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Uputstvo',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
-          {
-  type: 'search',
-  position: 'right',
-}
+          { type: 'search',         position: 'right' },
+          { type: 'localeDropdown', position: 'right' },
         ],
       },
-footer: {
-  style: 'dark',
-  links: [
-    {
-      title: 'Prokontik',
-      items: [
-        {
-          label: 'Prokontik softver',
-          href: 'https://prokontik.com',
-        },
-      ],
-    },
-    {
-      title: 'Kompanija',
-      items: [
-        {
-          label: 'East Code d.o.o',
-          href: 'https://eastcode.net',
-        },
-      ],
-    },
-  ],
-  copyright: `© ${new Date().getFullYear()} EastCode. Sva prava zadržana.`,
-},
-
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Prokontik',
+            items: [{ label: 'Prokontik softver', href: 'https://prokontik.com' }],
+          },
+          {
+            title: 'Kompanija',
+            items: [{ label: 'East Code d.o.o', href: 'https://eastcode.net' }],
+          },
+        ],
+        copyright: `© ${new Date().getFullYear()} EastCode.`,
+      },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme:      prismThemes.github,
+        darkTheme:  prismThemes.dracula,
       },
     }),
 };
