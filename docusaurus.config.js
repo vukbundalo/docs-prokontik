@@ -1,6 +1,8 @@
 // @ts-check
 import { themes as prismThemes } from 'prism-react-renderer';
 
+
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Prokontik Dokumentacija',
@@ -19,12 +21,12 @@ const config = {
   // —— i18n Setup ——  
   i18n: {
     defaultLocale: 'sr-Latn',
-    locales:       ['sr-Latn', 'sr', 'en', 'de'],
+    locales: ['sr-Latn', 'sr', 'en', 'de'],
     localeConfigs: {
       'sr-Latn': { label: 'Latinica' },
-      sr:       { label: 'Ћирилица' },
-      en:       { label: 'English' },
-      de:       { label: 'Deutsch' },
+      sr: { label: 'Ћирилица' },
+      en: { label: 'English' },
+      de: { label: 'Deutsch' },
     },
   },
 
@@ -36,7 +38,7 @@ const config = {
       ({
         docs: {
           routeBasePath: '/',                  // serve docs at /docs-prokontik/
-          sidebarPath:   require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: false,
         theme: {
@@ -51,11 +53,12 @@ const config = {
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
-        indexDocs:  true,
-        indexBlog:  false,
+        indexDocs: true,
+        indexBlog: false,
         indexPages: false,
-        language:   ['en','de'],  // stemmers supported
-        hashed:     true,
+        docsRouteBasePath: '/',
+        language: ['en', 'de'],  // stemmers supported
+        hashed: true,
       },
     ],
   ],
@@ -69,7 +72,7 @@ const config = {
         title: 'Prokontik',
         logo: { alt: 'Prokontik Logo', src: 'img/logo.png' },
         items: [
-          { type: 'search',         position: 'right' },
+          { type: 'search', position: 'right' },
           { type: 'localeDropdown', position: 'right' },
         ],
       },
@@ -88,8 +91,8 @@ const config = {
         copyright: `© ${new Date().getFullYear()} EastCode.`,
       },
       prism: {
-        theme:      prismThemes.github,
-        darkTheme:  prismThemes.dracula,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
     }),
 };
