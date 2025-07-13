@@ -4,15 +4,9 @@ sidebar_position: 1
 
 # Import šifarnika iz fonda
 
+Nekoliko dana prije promjene liste od fonda dobićete obavještenje putem e-maila u kojem će biti detaljno objašnjeno koje se promjene dešavaju: koji lijekovi se dodaju, koji se brišu, ili kojim se mijenja cijena, te datum od kada nova lista stupa na snagu.
 
-Ovaj odjeljak pruža kratak uvod u koncept **kalkulacije** unutar Prokontik softvera. Naučićete kako da efikasno koristite opcije kalkulisanja cijena, marži i ostalih parametara koji su ključni za vođenje robnog knjigovodstva.
-
-
-Kalkulacija je dokument kojim robu stavljamo na stanje i definišemo prodajne cijene artikala.  
-Dokument se unosi u odgovarajuće skladište — **veleprodajno (VP)** ili **maloprodajno (MP)** — zavisno od poslovanja.  
-Iz padajućeg menija **Ulazni dokumenti** biramo opciju **Kalkulacija**.
-
-Za bolju ilustraciju, pogledajte priloženi video vodič:
+Na taj datum ste dužni preuzeti novu listu prije početka rada, kako biste imali najnovije podatke i izbjegli neslaganja između liste apoteke i one koju definiše fond.
 
 ## Pogledajte video
 
@@ -33,82 +27,41 @@ Za bolju ilustraciju, pogledajte priloženi video vodič:
   ></iframe>
 </div>
 
+## Koraci za import nove FZO liste
 
+> **Napomena:** Učitavanje nove fond-liste radi se isključivo na glavnom računaru (serveru). Na ostalim računarima ili apotekama u lancu ovo nije potrebno. Ako nemate pristup serveru, kontaktirajte podršku na vrijeme da oni umjesto vas importuju listu.
 
-## Kreiranje nove kalkulacije
-
-Za unos nove kalkulacije:
-- Kliknemo na komandno dugme **Novi** u lijevom uglu ekrana.
-- Kursor se pozicionira na polje za izbor dobavljača. Dobavljača biramo klikom na dugme pored šifre i naziva partnera ili unosom nekoliko slova imena/šifre i potvrdom tipkom **Enter**.
-- Dokument automatski dobija sljedeći broj, a datum se preuzima sa sistema.
-- U polje **Broj fakt. dob./br. rač.** unosimo broj fakture dobavljača.
-- Unosimo **valutu** (broj dana za odgođeno plaćanje) — preuzima se iz registra partnera ako je tamo unesen.
-- Odabiremo **paritet**, **način plaćanja** (npr. Žiralno) i **valutu plaćanja** (npr. KM).
-- U polje **Iznos fakture** unosimo vrijednost fakture bez PDV-a.
-
+1. Prijavite se i pokrenite Prokontik, pa otvorite ekran **Kasa** klikom na **Kasa** u gornjem meniju, a zatim ponovo na **Kasa** (ili preko ikone za kasu).
 
 <img
-  src="/docs-prokontik/img/test.gif"
-  alt="Kalkulacija template GIF"
-  style={{ maxWidth: '100%', height: 'auto' }}
-/>
+  src="/docs-prokontik/img/apoteke/import_sifarnika_iz_fonda/import1.gif"
+  alt="Import gif"
+  style={{ maxWidth: '100%', height: 'auto' }} />
+
+2. U otvorenom prozoru kase kliknite na dugme **Podaci** u gornjem lijevom uglu.  
+3. Izaberite stavku **Import šifarnike**.
+
+<img
+  src="/docs-prokontik/img/apoteke/import_sifarnika_iz_fonda/import2.gif"
+  alt="Import gif"
+  style={{ maxWidth: '100%', height: 'auto' }} />
 
 
-> **Napomena (verzija 2.0):** Ova opcija je dostupna samo u verziji 2.0 softvera.
-## Unos troškova
+4. U prozoru **Import šifarnika od FZO** biće vam već označene glavne kategorije za import. Po želji možete dodatno označiti i druge kategorije klikom na odgovarajuće kućice (npr. „Medicinska sredstva“).  
+   
+   Sa desne strane izvor podataka je unaprijed postavljen na **IZIS service** (uvek ga ostavite osim ako podrška ne zatraži drugačije). U izuzetnim situacijama — npr. kada IZIS servis nije dostupan — možete izabrati i **www.zdravstvo-srpske.org** kao alternativni izvor.  
+5. Kliknite na dugme **Import** u donjem desnom uglu prozora.  
+6. Pojaviće se prozor **Import podataka u toku**. Sačekajte da proces završi (može potrajati i do 5 minuta ako je veza spora). 
 
-Ako imamo troškove vezane za fakturu:
-- Kliknemo na dugme **Unos troškova**.
-- Otvara se forma gdje unosimo svaki trošak: biramo trošak, partnera i unosimo iznos. Svaki unos potvrđujemo tipkom **Enter**.
+<img
+  src="/docs-prokontik/img/apoteke/import_sifarnika_iz_fonda/import3.gif"
+  alt="Import gif"
+  style={{ maxWidth: '100%', height: 'auto' }} />
 
-## Unos ulaznog PDV-a
+7. Kada se import uspešno završi, poruka će nestati i možete zatvoriti sve prozore i nastaviti rad.  
 
-Ako je dobavljač u sistemu PDV-a:
-- Kliknemo na dugme za unos ulaznog PDV-a.
-- Unesemo vrijednost i snimimo unos.
+> **Napomena:** Ako poruka o importu ostane na ekranu ili dobijete grešku, kontaktirajte Prokontik podršku radi otklanjanja problema.
 
-## Unos stavki kalkulacije
+## Posljednji korak
 
-Za svaki artikal:
-- U polje za unos šifre/naziva artikla unosimo podatke i pritisnemo **Enter**.
-- U formi unosimo količinu, nabavnu i prodajnu cijenu.
-- Snimamo unos.
-
-<div style={{
-  padding: '0.8em',
-  background: 'var(--note-bg)',
-  borderLeft: '4px solid var(--note-border)',
-  margin: '0.5em 0'
-}}>
-  <strong>Napomena (verzija 1.0):</strong> Ova opcija je dostupna samo u verziji 1.0 softvera.
-</div>
-
-<div style={{
-  padding: '0.8em',
-  background: 'var(--note-v2-bg)',
-  borderLeft: '4px solid var(--note-v2-border)',
-  margin: '0.5em 0'
-}}>
-  <strong>Napomena (verzija 2.0):</strong> Ova opcija je dostupna samo u verziji 2.0 softvera.
-</div>
-
-Možemo unijeti:
-- **Bar kod** artikla (dodavanje/izmjena)
-- **Seriju artikla** (broj serije, količina, rok valjanosti)
-
-## Završni koraci
-
-- Nakon unosa svih stavki, pokrećemo **rekalkulaciju troška** iz menija.
-- Dokument proknjižavamo klikom na dugme za knjiženje.
-- Opcionalno, biramo način štampe (pregled na ekranu, direktna štampa, bez štampe).
-
-## Brisanje i izmjene
-
-- Izmjene: Klik na dugme **Izmjena dokumenta**.
-- Brisanje stavke: Odabrati stavku i kliknuti na **Brisanje**.
-- Brisanje cijelog dokumenta: Iz menija **Dokument** izabrati **Obriši SVE stavke dokumenta** i potom **Obriši tekući dokument**.
-
-## Prikaz proknjiženih kalkulacija
-
-Za pregled proknjiženih kalkulacija:
-- U polju **Filter** izaberemo opciju **Proknjiženi**.
+Nakon završetka importa osvježite registar artikala i provjerite nekoliko stavki za koje znate da su se trebale promijeniti prema e-mailu od fonda, kako biste se uvjerili da su izmjene zaista primijenjene.  
