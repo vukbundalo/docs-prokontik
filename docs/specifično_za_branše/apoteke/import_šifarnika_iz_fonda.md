@@ -8,17 +8,18 @@ Nekoliko dana prije promjene liste od fonda dobićete obavještenje putem e-mail
 
 Na taj datum ste dužni preuzeti novu listu prije početka rada, kako biste imali najnovije podatke i izbjegli neslaganja između liste apoteke i one koju definiše fond.
 
-## Pogledajte video
 
 ## Pogledajte video
 
-<div style={{ maxWidth: '100%', marginBottom: '1rem' }}>
-  <video controls style={{ width: '100%', height: 'auto' }}>
-    <source src="/docs-prokontik/videos/importSifarnikaIzFonda.mp4" type="video/mp4" />
-    Vaš pregledač ne podržava video tag.
-  </video>
+<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', marginBottom: '1rem' }}>
+  <iframe
+    src="https://drive.google.com/file/d/1_ctadc-o1lxbQIOPo9xDlQ5NT5k8aH0t/preview"
+    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+    allow="autoplay"
+    allowFullScreen
+    frameBorder="0"
+  ></iframe>
 </div>
-
 ## Koraci za import nove FZO liste
 
 > **Napomena:** Učitavanje nove fond-liste radi se isključivo na glavnom računaru (serveru). Na ostalim računarima ili apotekama u lancu ovo nije potrebno. Ako nemate pristup serveru, kontaktirajte podršku na vrijeme da oni umjesto vas importuju listu.
