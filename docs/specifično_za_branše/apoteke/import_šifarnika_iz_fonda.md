@@ -12,7 +12,7 @@ Na taj datum ste dužni preuzeti novu listu prije početka rada, kako biste imal
 
 <div style={{ maxWidth: '100%', marginBottom: '1rem' }}>
   <video controls style={{ width: '100%', height: 'auto' }}>
-    <source src="/docs-prokontik/videos/importSifarnikaIzFonda.mp4" type="video/mp4" />
+    <source src="/videos/importSifarnikaIzFonda.mp4" type="video/mp4" />
     Vaš pregledač ne podržava video tag.
   </video>
 </div>
