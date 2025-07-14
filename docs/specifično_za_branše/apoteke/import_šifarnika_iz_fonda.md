@@ -13,13 +13,20 @@ Na taj datum ste dužni preuzeti novu listu prije početka rada, kako biste imal
 
 <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', marginBottom: '1rem' }}>
   <iframe
-    src="https://drive.google.com/file/d/1_ctadc-o1lxbQIOPo9xDlQ5NT5k8aH0t/preview"
-    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+    src="https://drive.google.com/file/d/1bFrInXFON5maj31BN2VCWbkGVGqJYQFe/preview"
     allow="autoplay"
+    style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      border: 0
+    }}
     allowFullScreen
-    frameBorder="0"
   ></iframe>
 </div>
+
 ## Koraci za import nove FZO liste
 
 > **Napomena:** Učitavanje nove fond-liste radi se isključivo na glavnom računaru (serveru). Na ostalim računarima ili apotekama u lancu ovo nije potrebno. Ako nemate pristup serveru, kontaktirajte podršku na vrijeme da oni umjesto vas importuju listu.
