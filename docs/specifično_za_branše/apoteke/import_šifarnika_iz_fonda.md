@@ -10,23 +10,12 @@ Na taj datum ste dužni preuzeti novu listu prije početka rada, kako biste imal
 
 ## Pogledajte video
 
-<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
-  <iframe
-    src="https://www.youtube.com/embed/chV68OsnDlQ"
-    title="YouTube video player"
-    style={{
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      width: '100%',
-      height: '100%',
-    }}
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-  ></iframe>
+<div style={{ maxWidth: '100%', marginBottom: '1rem' }}>
+  <video controls style={{ width: '100%', height: 'auto' }}>
+    <source src="/docs-prokontik/videos/importSifarnikaIzFonda.mp4" type="video/mp4" />
+    Vaš pregledač ne podržava video tag.
+  </video>
 </div>
-
 ## Koraci za import nove FZO liste
 
 > **Napomena:** Učitavanje nove fond-liste radi se isključivo na glavnom računaru (serveru). Na ostalim računarima ili apotekama u lancu ovo nije potrebno. Ako nemate pristup serveru, kontaktirajte podršku na vrijeme da oni umjesto vas importuju listu.
@@ -62,6 +51,6 @@ Na taj datum ste dužni preuzeti novu listu prije početka rada, kako biste imal
 
 > **Napomena:** Ako poruka o importu ostane na ekranu ili dobijete grešku, kontaktirajte Prokontik podršku radi otklanjanja problema.
 
-## Posljednji korak
+## Provjera liste
 
 Nakon završetka importa osvježite registar artikala i provjerite nekoliko stavki za koje znate da su se trebale promijeniti prema e-mailu od fonda, kako biste se uvjerili da su izmjene zaista primijenjene.  
